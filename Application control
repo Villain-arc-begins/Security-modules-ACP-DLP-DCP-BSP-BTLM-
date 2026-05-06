@@ -1,0 +1,67 @@
+1. Application Control
+1.1 Create Control Groups
+Create the following groups:
+
+
+
+YourName-HighRisk-Apps-Group
+Include systems from Engineering & R&D. (choose any machine for test )
+
+
+
+
+YourName-Finance-RestrictedApps
+Include Windows 11 endpoints only.(choose any machine for test )​
+
+
+
+1.2 Create Allowed & Denied Lists (choose mock list if the apps are not available)
+Configure:
+
+Allowed List (choose mock list if the apps are not available)
+
+Microsoft Office
+
+Zoom
+
+Adobe Reader
+
+Custom HR tool (add mock executable path)
+
+Name: YourName-AppControl-AllowList
+
+Denied List (choose mock list if the apps are not available)
+
+AnyDesk
+
+TeamViewer
+
+Torrent clients
+
+Python.exe (for restricted R&D endpoints)
+
+Name: YourName-AppControl-DenyList
+
+
+1.3 Create Enforcement Policy
+Policy name: YourName-AppControl-Policy
+
+Configuration:
+
+Allow only whitelisted applications
+
+Deny execution of blacklisted apps
+
+Enable logging of all blocked attempts
+
+Set mode: Audit-Only (for simulation)
+
+
+📸 Required Screenshots (App Control)
+Control Group creation
+
+Allow list configuration
+
+Deny list configuration
+
+Application Control Policy screen
