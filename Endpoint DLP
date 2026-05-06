@@ -1,0 +1,71 @@
+2.1 Create DLP Device Control Policy
+Policy name: YourName-DeviceControl-Policy
+
+Rules:
+
+Block USB storage devices
+
+Allow only encrypted devices for Finance & HR
+
+Monitor Bluetooth file transfers
+
+Disable copying to CD/DVD drives
+
+
+2.2 Create Content-Aware Protection
+Create a rule named: YourName-ConfidentialDataRule
+
+Detect and block:
+
+PAN numbers or SSN or other PII related to your region
+
+Salary files or financial data or email address
+
+Source-code files
+
+PDF exports containing financial statements
+
+Actions:
+
+Block transfer
+
+Notify user
+
+Log incident
+
+
+2.3 Configure DLP Exfiltration Reports
+Create a report showing: 
+
+Attempts to copy sensitive files
+
+Attempts to upload data to cloud drives
+
+Email content sharing violations
+
+Report name: YourName-DLP-IncidentReport
+
+
+📸 Required Screenshots (DLP)
+Device control policy
+
+Content-aware protection rule
+
+DLP incident report configuration
+
+
+3. Browser Security
+3.1 Create Browser Security Policy
+Policy name: YourName-BrowserSecurityPolicy
+
+Configuration:
+
+Block malicious URLs
+
+Force Safe Browsing Mode in Chrome & Edge
+
+Prevent file downloads from unknown domains
+
+Disable use of risky extensions
+
+Allow approved extensions only (e.g., Grammarly, Zoom)
