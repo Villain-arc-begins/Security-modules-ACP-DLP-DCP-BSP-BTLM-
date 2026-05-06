@@ -1,0 +1,56 @@
+3.1 Create Browser Security Policy
+Policy name: YourName-BrowserSecurityPolicy
+
+Configuration:
+
+Block malicious URLs
+
+Force Safe Browsing Mode in Chrome & Edge
+
+Prevent file downloads from unknown domains
+
+Disable use of risky extensions
+
+Allow approved extensions only (e.g., Grammarly, Zoom)
+
+
+3.2 Create Website Category Control
+Create category rules:
+
+Block Categories:
+
+Gambling
+
+Adult content
+
+Hacking tools
+
+Freeware download sites
+
+Allow Categories:
+
+Banking
+
+Productivity
+
+HR portals
+
+Name: YourName-WebsiteCategoryControl
+
+
+3.3 Configure Browser Isolation (Optional)
+Create isolation for:
+
+Unknown websites
+
+Any HTTP-only site
+
+External file-sharing platforms
+
+
+📸 Required Screenshots (Browser Security)
+Browser security policy
+
+Website category control rules
+
+Isolation policy
